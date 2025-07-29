@@ -13,7 +13,7 @@ public class Country {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Short id;
 
-    @Column(name="country")
+    @Column(name = "country")
     private String title;
 
     @Column(name = "last_update")

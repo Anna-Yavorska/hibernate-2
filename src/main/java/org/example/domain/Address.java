@@ -28,8 +28,6 @@ public class Address {
 
     private String phone;
 
-    //TODO location type geometry
-
     @Column(name = "last_update")
     @UpdateTimestamp
     private LocalDateTime lastUpdate;
